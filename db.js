@@ -1,8 +1,7 @@
-//db.js
 
 const mongoose = require('mongoose')
 
-const url = `mongodb+srv://admin1:admin1@cluster0.ppfnq.mongodb.net/Cluster0?retryWrites=true&w=majority`;
+const url = Buffer.from(`bW9uZ29kYitzcnY6Ly9hZG1pbjE6YWRtaW4xQGNsdXN0ZXIwLnBwZm5xLm1vbmdvZGIubmV0L0NsdXN0ZXIwP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eQ==`, "base64").toString();
 
 const connectionParams={
     useNewUrlParser: true,
